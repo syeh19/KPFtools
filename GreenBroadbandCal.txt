@@ -1,14 +1,14 @@
-OctagonSource: U_daily # Sets the octagon mirror to this source
+OctagonSource: BrdbandFiber # Sets the octagon mirror to this source
 WarmUp: 3              # If the lamp is turned on by this script, it will wait
                        #   this many seconds for the lamp to warm up
 TriggerRed: False       # Trigger the red detector for these exposures
 TriggerGreen: True     # Trigger the green detector for these exposures
 TriggerCaHK: False     # Trigger the Ca H&K detector for these exposures
-Exptime: 10            # Exposure time
+Exptime: 5            # Exposure time
 nExp: 1                # Number of exposures
-SSS_Science: True      # Open the source select shutter on the science fiber
-SSS_Sky: True          # Open the source select shutter on the sky fiber
-SSS_CalSciSky: True    # Open the source select shutter on the cal bench Sci/Sky arm
+SSS_Science: False      # Open the source select shutter on the science fiber
+SSS_Sky: False          # Open the source select shutter on the sky fiber
+SSS_CalSciSky: False    # Open the source select shutter on the cal bench Sci/Sky arm
 SSS_SoCalSci: False    # Open the source select shutter on the SoCal Sci arm
 SSS_SoCalCal: False    # Open the source select shutter on the SoCal Cal arm
 TS_Scrambler: True     # Open the timed shutter on the scrambler
@@ -16,4 +16,4 @@ TS_SimulCal: True      # Open the timed shutter on the simultaneous cal fiber
 TS_FF_Fiber: False     # Open the timed shutter on the flat field fiber
 TS_CaHK: False         # Open the timed shutter on the Ca H&K fibers
 ND1: OD 0.1            # ND filter to use on the octagon output
-ND2: OD 0.1            # ND filter to use on the simultaneous cal fiber input
+ND2: OD 0.8            # ND filter to use on the simultaneous cal fiber input
